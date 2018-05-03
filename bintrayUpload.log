@@ -1,0 +1,37 @@
+:owntwo:preBuild UP-TO-DATE
+:owntwo:preReleaseBuild UP-TO-DATE
+:owntwo:compileReleaseAidl UP-TO-DATE
+:owntwo:compileReleaseRenderscript UP-TO-DATE
+:owntwo:checkReleaseManifest UP-TO-DATE
+:owntwo:generateReleaseBuildConfig UP-TO-DATE
+:owntwo:generateReleaseResValues UP-TO-DATE
+:owntwo:generateReleaseResources UP-TO-DATE
+:owntwo:packageReleaseResources UP-TO-DATE
+:owntwo:platformAttrExtractor UP-TO-DATE
+:owntwo:processReleaseManifest UP-TO-DATE
+:owntwo:generateReleaseRFile UP-TO-DATE
+:owntwo:prepareLintJar UP-TO-DATE
+:owntwo:generateReleaseSources UP-TO-DATE
+:owntwo:javaPreCompileRelease UP-TO-DATE
+:owntwo:compileReleaseJavaWithJavac UP-TO-DATE
+:owntwo:extractReleaseAnnotations UP-TO-DATE
+:owntwo:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:owntwo:mergeReleaseShaders UP-TO-DATE
+:owntwo:compileReleaseShaders UP-TO-DATE
+:owntwo:generateReleaseAssets UP-TO-DATE
+:owntwo:packageReleaseAssets UP-TO-DATE
+:owntwo:packageReleaseRenderscript NO-SOURCE
+:owntwo:processReleaseJavaRes NO-SOURCE
+:owntwo:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:owntwo:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:owntwo:compileReleaseNdk NO-SOURCE
+:owntwo:mergeReleaseJniLibFolders UP-TO-DATE
+:owntwo:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:owntwo:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:owntwo:bundleRelease UP-TO-DATE
+:owntwo:javadoc UP-TO-DATE
+:owntwo:javadocJar UP-TO-DATE
+:owntwo:sourcesJar UP-TO-DATE
+:owntwo:install
+:owntwo:bintrayUpload FAILED
+28 actionable tasks: 2 executed, 26 up-to-date
