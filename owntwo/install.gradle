@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.sameh.library' // CREATE A GROUP ID FOR YOUR LIBRARY
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.sameh.library' // CREATE A GROUP ID FOR YOUR LIBRARY
+                artifactId 'onetwo' // THE NAME OF YOUR MODULE
+
+                name 'OneTwo' // YOUR LIBRARY NAME
+                description 'A collections of methods to work with Date objects.' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/samehchafik/onetwo' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'chafiksameh' //YOUR ID
+                        name 'Chafik C.' //YOUR NAME
+                        email 'sameh.chafik@gmail.com' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/samehchafik/onetwo' // YOUR GIT REPO
+                    developerConnection 'https://github.com/samehchafik/onetwo' // YOUR GIT REPO
+                    url 'https://github.com/samehchafik/onetwo' // YOUR SITE
+
+                }
+            }
+        }
+    }
+}

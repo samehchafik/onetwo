@@ -39,7 +39,7 @@ if(project.rootProject.file('local.properties').exists()){
 
 bintray {
 
-    println 'User / Key ' + _user + ", " + _key
+    println 'User / Key ... ' + _user + ", " + _key
 
     user = _user
     key = _key
